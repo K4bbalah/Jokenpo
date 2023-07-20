@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF">
+    
+    
+    <TextView
+        android:id="@+id/Inicio"
+   android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:textSize="30sp"
+  android:textColor="#e80d25"
+   android:text="Pedra: Papel: Tesoura:" />
+    
+  
+  <Button 
+        android:id="@+id/Pedra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="Pedra"
+        android:textColor="#000000"        android:text="Pedra"
+        android:textSize="20sp"/>
+        
+        
+        <Button 
+        android:id="@+id/Papel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="Papel"
+        android:textColor="#4B0082"        android:text="Papel"
+        android:textSize="20sp"/>
+        
+        <Button 
+        android:id="@+id/Tesoura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="Tesoura"
+        android:textColor="#8B0000"        android:text="Tesoura"
+        android:textSize="20sp"/>
+        
+  
+  
+   
+   <Button 
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="Start"
+        android:textColor="#0000FF"        android:text="Start"
+        android:textSize="20sp"/>
+        
+        
+     <TextView
+        android:id="@+id/cpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:gravity="center"
+android:text=""
+android:textColor="#A020F0"
+android:textSize="20sp" />  
+     
+   
+
+    <TextView
+        android:id="@+id/resp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:gravity="center"
+android:text="Resultado"
+android:textColor="#00008B"
+android:textSize="30sp" />
+</LinearLayout>
